@@ -1,0 +1,15 @@
+[package]
+authors = ["MaidSafe Developers <dev@maidsafe.net>"]
+description = "The Safe Network Node Implementation."
+documentation = "https://docs.rs/sn_node"
+edition = "2021"
+homepage = "https://maidsafe.net"
+license = "GPL-3.0"
+name = "sn_node"
+readme = "README.md"
+repository = "https://github.com/maidsafe/safe_network"
+version = "0.60.0"
+
+[dependencies]
+sn_dysfunction = { path = "../sn_dysfunction", version = "^0.3.0" }
+sn_interface = { path = "../sn_interface", version = "^0.4.0" }

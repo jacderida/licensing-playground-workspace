@@ -1,0 +1,19 @@
+[package]
+name = "sn_cli"
+version = "0.55.0"
+description = "Safe CLI"
+authors = [
+  "bochaco <gabrielviganotti@gmail.com>",
+  "Josh Wilson <joshuef@gmail.com>"
+]
+license = "GPL-3.0"
+default-run = "safe"
+repository = "https://github.com/maidsafe/sn_cli"
+edition = "2021"
+
+[[bin]]
+name = "safe"
+path = "src/main.rs"
+
+[dependencies]
+sn_api = { path = "../sn_api", version = "^0.62.0" }

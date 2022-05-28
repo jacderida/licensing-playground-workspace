@@ -1,0 +1,21 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - basic-setup
+
+jobs:
+  verify-licensing:
+    name: verify licensing
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jacderida/verify-licensing-info@workspace-repo
+        name: verify licensing
+        with:
+          company-name: MaidSafe
+          cargo-workspace: true
+          crates: "sn_interface sn_dysfunction sn_node sn_client sn_api sn_cli"
