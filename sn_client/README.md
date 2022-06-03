@@ -40,6 +40,6 @@ Click [here](https://maidsafe.github.io/interdependency-svg-generator/) for an o
 
 ## License
 
-This Safe Network library is licensed under the GNU General Public License (v3).
+This Safe Network library is licensed under the GNU General Public License v3.0 only.
 
 For more details, see the [LICENSE](../LICENSE) file at the root of this repository.

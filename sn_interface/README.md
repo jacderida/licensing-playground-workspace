@@ -16,6 +16,6 @@ The data needed to validate sections/elders/adults and to decide how to route me
 
 ## License
 
-This Safe Network library is licensed under the GNU General Public License (v3).
+This Safe Network library is licensed under the GNU General Public License v3.0 only.
 
 For more details, see the [LICENSE](../LICENSE) file at the root of this repository.

@@ -7,7 +7,7 @@ The Safe Network Core. API message definitions, routing and nodes, client core a
 
 ## License
 
-This Safe Network binary is licensed under the GNU General Public License (v3).
+This Safe Network binary is licensed under the GNU General Public License v3.0 only.
 
 For more details, see the [LICENSE](../LICENSE) file at the root of this repository.
 
