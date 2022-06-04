@@ -1,4 +1,4 @@
-# licensing-playground-workspace
+# Licensing Playground Workspace
 
 A little repository for experimenting with automation of licensing enforcement. This one is a workspace. It will replicate the structure of the safe_network repository.
 
